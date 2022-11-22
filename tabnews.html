@@ -1,29 +1,35 @@
 <html lang="pt_BR">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <title> TabNews Search - powered by Google  </title>
-      <link rel="stylesheet" href="google-like.css">
-      <link rel="icon" href="https://www.tabnews.com.br/favicon-light.png" sizes="16x16" type="image/png">
-   </head>
-   <body>
-      <div class="header">
-         <span class="menuItems"><a href="https://www.tabnews.com.br/natanael755/pagina-de-pesquisa-pro-tabnews" alt="Deixe uma Tabcoin na pagina de anúncio">Se gostou, deixe uma Tabcoin :)</a></span>
-         <span class="menuItems"><a href="https://www.tabnews.com.br/publicar" alt="Publicar no TabNews">Publicar</a></span>
-         <span class="menuItems"><a href="https://www.tabnews.com.br/recentes" alt="Feed do TabNews">Recentes</a></span>
-         <span class="menuItems"><a href="https://www.tabnews.com.br/recentes" alt="Mais respondidas">Relevantes</a></span>
-      </div>
-      <div class="container" style="text-align: center;">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title> TabNews Search - powered by Google </title>
+   <link rel="stylesheet" href="google-like.css">
+   <link rel="icon" href="https://www.tabnews.com.br/favicon-light.png" sizes="16x16" type="image/png">
+</head>
+
+<body>
+   <div class="header">
+      <span class="menuItems"><a href="https://www.tabnews.com.br/natanael755/pagina-de-pesquisa-pro-tabnews"
+            alt="Deixe uma Tabcoin na pagina de anúncio">Se gostou, deixe uma Tabcoin :)</a></span>
+      <span class="menuItems"><a href="https://www.tabnews.com.br/publicar"
+            alt="Publicar no TabNews">Publicar</a></span>
+      <span class="menuItems"><a href="https://www.tabnews.com.br/recentes" alt="Feed do TabNews">Recentes</a></span>
+      <span class="menuItems"><a href="https://www.tabnews.com.br/recentes" alt="Mais respondidas">Relevantes</a></span>
+   </div>
+   <div class="container" style="text-align: center;">
       <img width="256" src="https://www.tabnews.com.br/favicon-light.png">
       <form id="search-form" action="https://www.google.com/search" class="search">
          <input type="text" class="input" name="q">
       </form>
       <div class="btn">
-         <button class="btns" onclick="let current_value = document.getElementsByName('q')[0].value;
-            document.getElementsByName('q')[0].value='inurl:www.tabnews.com.br '+current_value;document.getElementById('search-form').submit();">Pesquisar no TabNews</button>
+         <button class="btns"
+            onclick="let current_value = document.getElementsByName('q')[0].value;
+            document.getElementsByName('q')[0].value='inurl:www.tabnews.com.br '+current_value;document.getElementById('search-form').submit();">Pesquisar
+            no TabNews</button>
          <button class="btns" onclick="document.getElementsByName('q')[0].value='';">Limpar</button>
       </div>
-      </div
-   </body>
+   </div>
+</body> 
 </html>
